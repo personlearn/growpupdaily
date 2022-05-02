@@ -1,0 +1,58 @@
+.tagform {
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.untagform {
+    display: none;
+}
+
+.tagcontent {
+    position: absolute;
+    padding: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #CECEFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.addtag {
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newtag {
+    position: absolute;
+    padding: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #CECEFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1100;
+}
+
+.unaddtag {
+    display: none;
+}
+
+.tagclose {
+    position: relative;
+    left: 200px;
+    top: -50px;
+}

@@ -14,7 +14,7 @@ function App() {
             </Link>
           </li>
           <li>
-            <Link to="/menu1">菜单1</Link>
+            <Link to={{pathname:"/Imglist"}}>菜单1</Link>
           </li>
           <li>
             <Link to="/menu2">菜单2</Link>

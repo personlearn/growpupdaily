@@ -1,0 +1,15 @@
+.radio{
+    margin: 10px;
+    font-size: 20px;
+    vertical-align:middle; 
+}
+
+.rdiotxt{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+
+.radiocheck{
+    display: inline-block;
+}

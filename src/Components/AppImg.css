@@ -1,9 +1,12 @@
-img{
-    width: 20px;
-    height: 20px;
+.AppImg{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin: 2px;
+    /* display: flex; */
 }
-img:hover{
+/* img:hover{
     position: relative;
     left:300px;
     top:300px;
-}
+} */
